@@ -2,11 +2,6 @@ const express = require('express');
 const morgan = require('morgan');
 const bodyParser = require('body-parser');
 const _ = require('lodash');
-
-var sh = require("shorthash");
- 
-
-
 const mongoose = require('./config/db-url');
 const Url = require('./models/url');
 
@@ -21,13 +16,33 @@ app.get('/url',(req,res) => {
     Url.find().then(url => res.send(url)).catch(err => res.send(err));
 });
 
+
+//hashed url
 app.get('/url/:hash',(req,res) => {
-    Url.findOne({ hashed_url: `${req.params.hash}`}).select(['original_url']).then(url => {
-        res.send({
-            url
-        })
+    Url.find({ hashed_url: `${req.params.hash}`}).then(url => {
+        let arr = url.map(url2 => url2.original_url);
+        res.send(arr[0]);
     }).catch(err => res.send(err));
 });
+
+//tags url
+
+app.get('/urls/tags',(req,res) => {
+    let queryTags = req.query.names.split(',');
+    Url.find({tags: {'$in': queryTags}}).then(url => {
+        let arr = url.map(url2 => url2.original_url);
+        res.send(arr[0]);
+    }).catch(err => res.send(err));
+});
+
+//multiple tags
+app.get('/url/tags/:name',(req,res) => {
+    Url.find({tags: req.params.name}).then(url => {
+        let arr = url.map(url2 => url2.original_url);
+        res.send(arr[0]);
+    }).catch(err => res.send(err));
+});
+
 
 app.post('/url',(req,res) => {
     let body =  _.pick(req.body,['title','original_url','tags']);

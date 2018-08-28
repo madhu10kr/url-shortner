@@ -2,6 +2,7 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 const bodyParser = require('body-parser');
 var sh = require("shorthash");
+var validator = require('validator');
  
 
 const urlSchema = new Schema({
@@ -10,6 +11,14 @@ const urlSchema = new Schema({
         required:true
     },
     original_url:{
+        validate: {
+            validator: function(value) {
+                return validator.isURL(value);
+            },
+            message:function(props) {
+                return `${props.path} not an valid url`
+            }
+        },
         type: String,
         required: true
     },
