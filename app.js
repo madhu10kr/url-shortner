@@ -15,7 +15,12 @@ const port = 3000;
 //console.log(morgan.date);
 
 var logCreate = file.createWriteStream(path.join('./logs', 'access.log'), {flags: 'a'});
-app.use(morgan('short', {stream: logCreate}));
+//app.use(morgan('combined', {stream: logCreate}));
+app.use(morgan((tokens, req, res) => {
+    return `STARTED: ${tokens.method(req, res)} ${tokens.url(req, res)} for ${req.ip} at ${new Date()}
+COMPLETED: ${tokens.status(req, res)} in  ${tokens['response-time'](req, res)}ms`;
+  },{stream: logCreate}));
+
 
 app.use(bodyParser.json());
 app.use(useragent.express());
