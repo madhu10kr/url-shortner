@@ -1,0 +1,4 @@
+::1 - - [30/Aug/2018:09:59:48 +0000] "GET /url HTTP/1.1" 200 2052 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"
+[0mGET /url [32m200 [0m920.622 ms - 2052[0m
+[0mGET /url [32m200 [0m40.793 ms - 2052[0m
+[0mGET /url [32m200 [0m10.145 ms - 2052[0m

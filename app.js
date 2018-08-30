@@ -5,16 +5,24 @@ const _ = require('lodash');
 const mongoose = require('./config/db-url');
 const Url = require('./models/url');
 
+var file = require('fs-extra');
+var path = require('path');
+
 const app = express();
 
 var useragent = require('express-useragent');
 const port = 3000;
+//console.log(morgan.date);
 
+var logCreate = file.createWriteStream(path.join('./logs', 'access.log'), {flags: 'a'});
+app.use(morgan('short', {stream: logCreate}));
 
 app.use(bodyParser.json());
 app.use(useragent.express());
-app.use(morgan('dev'));
-
+app.use(morgan((tokens, req, res) => {
+    return `STARTED: ${tokens.method(req, res)} ${tokens.url(req, res)} for ${req.ip} at ${new Date()}
+COMPLETED: ${tokens.status(req, res)} in  ${tokens['response-time'](req, res)}ms`;
+  }))
 
 app.get('/url',(req,res) => {
     Url.find().then(url => res.send(url)).catch(err => res.send(err));
@@ -70,6 +78,10 @@ app.delete('/url/:id',(req,res) => {
     Url.findByIdAndRemove(req.params.id)
     .then(url => res.send(url)).catch(err => res.send(err));
 });
+
+app.use(function(req, res, next) {
+        res.status(404).send({ error : 'route not found'});
+  });
 
 app.listen(port,() => {
     console.log('Listening to port '+port);
