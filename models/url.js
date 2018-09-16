@@ -48,7 +48,11 @@ const urlSchema = new Schema({
         deviceType: {
             type: String
         }
-    }]
+    }],
+    user: {
+        type:Schema.Types.ObjectId,
+        ref: 'USer'
+    }
 }); 
 
 urlSchema.pre('save',function(next) {

@@ -5,3 +5,317 @@
 ::1 - - [30/Aug/2018:10:17:45 +0000] "GET /url HTTP/1.1" 200 2052 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"
 STARTED: GET /url for ::1 at Thu Aug 30 2018 15:50:20 GMT+0530 (India Standard Time)
 COMPLETED: 200 in  63.615ms
+STARTED: GET / for ::1 at Fri Aug 31 2018 16:15:39 GMT+0530 (India Standard Time)
+COMPLETED: 200 in  1045.786ms
+STARTED: GET /favicon.ico for ::1 at Fri Aug 31 2018 16:15:39 GMT+0530 (India Standard Time)
+COMPLETED: 404 in  0.856ms
+STARTED: GET / for ::1 at Fri Aug 31 2018 16:15:50 GMT+0530 (India Standard Time)
+COMPLETED: 500 in  6.036ms
+STARTED: GET / for ::1 at Fri Aug 31 2018 16:16:19 GMT+0530 (India Standard Time)
+COMPLETED: 200 in  760.193ms
+STARTED: GET / for ::1 at Fri Aug 31 2018 16:17:38 GMT+0530 (India Standard Time)
+COMPLETED: 304 in  709.404ms
+STARTED: GET / for ::1 at Fri Aug 31 2018 16:19:12 GMT+0530 (India Standard Time)
+COMPLETED: 304 in  741.342ms
+STARTED: GET / for ::1 at Fri Aug 31 2018 16:19:24 GMT+0530 (India Standard Time)
+COMPLETED: 304 in  14.151ms
+STARTED: GET / for ::1 at Fri Aug 31 2018 16:19:34 GMT+0530 (India Standard Time)
+COMPLETED: 304 in  18.762ms
+STARTED: GET / for ::1 at Fri Aug 31 2018 16:23:23 GMT+0530 (India Standard Time)
+COMPLETED: 500 in  10.290ms
+STARTED: GET / for ::1 at Fri Aug 31 2018 16:24:03 GMT+0530 (India Standard Time)
+COMPLETED: 500 in  2.207ms
+STARTED: GET / for ::1 at Fri Aug 31 2018 16:24:04 GMT+0530 (India Standard Time)
+COMPLETED: 500 in  2.113ms
+STARTED: GET / for ::1 at Fri Aug 31 2018 16:24:31 GMT+0530 (India Standard Time)
+COMPLETED: 200 in  8.580ms
+STARTED: GET / for ::1 at Fri Aug 31 2018 16:24:52 GMT+0530 (India Standard Time)
+COMPLETED: 200 in  20.222ms
+STARTED: GET / for ::1 at Fri Aug 31 2018 16:25:43 GMT+0530 (India Standard Time)
+COMPLETED: 200 in  762.461ms
+STARTED: GET / for ::1 at Fri Aug 31 2018 16:26:20 GMT+0530 (India Standard Time)
+COMPLETED: 500 in  745.441ms
+STARTED: GET / for ::1 at Fri Aug 31 2018 16:26:41 GMT+0530 (India Standard Time)
+COMPLETED: 500 in  3.597ms
+STARTED: GET / for ::1 at Fri Aug 31 2018 16:26:42 GMT+0530 (India Standard Time)
+COMPLETED: 500 in  2.596ms
+STARTED: GET / for ::1 at Fri Aug 31 2018 16:26:43 GMT+0530 (India Standard Time)
+COMPLETED: 500 in  3.272ms
+STARTED: GET / for ::1 at Fri Aug 31 2018 16:26:43 GMT+0530 (India Standard Time)
+COMPLETED: 500 in  1.845ms
+STARTED: GET / for ::1 at Fri Aug 31 2018 16:27:24 GMT+0530 (India Standard Time)
+COMPLETED: 200 in  63.290ms
+STARTED: GET / for ::1 at Fri Aug 31 2018 16:29:35 GMT+0530 (India Standard Time)
+COMPLETED: 200 in  13.810ms
+STARTED: GET / for ::1 at Fri Aug 31 2018 16:34:41 GMT+0530 (India Standard Time)
+COMPLETED: 200 in  8.320ms
+STARTED: GET / for ::1 at Fri Aug 31 2018 16:38:43 GMT+0530 (India Standard Time)
+COMPLETED: 200 in  769.035ms
+STARTED: GET / for ::1 at Fri Aug 31 2018 16:52:08 GMT+0530 (India Standard Time)
+COMPLETED: 404 in  2.936ms
+STARTED: GET / for ::1 at Fri Aug 31 2018 16:52:16 GMT+0530 (India Standard Time)
+COMPLETED: 404 in  0.683ms
+STARTED: GET /table for ::1 at Fri Aug 31 2018 16:52:23 GMT+0530 (India Standard Time)
+COMPLETED: 404 in  0.618ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 16:52:36 GMT+0530 (India Standard Time)
+COMPLETED: 200 in  769.095ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 16:52:42 GMT+0530 (India Standard Time)
+COMPLETED: 304 in  13.810ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 16:54:16 GMT+0530 (India Standard Time)
+COMPLETED: 500 in  46.745ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 16:54:17 GMT+0530 (India Standard Time)
+COMPLETED: 500 in  34.692ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 16:54:31 GMT+0530 (India Standard Time)
+COMPLETED: 200 in  16.392ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 16:55:21 GMT+0530 (India Standard Time)
+COMPLETED: 200 in  719.057ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 16:56:31 GMT+0530 (India Standard Time)
+COMPLETED: 200 in  693.600ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 16:58:39 GMT+0530 (India Standard Time)
+COMPLETED: 200 in  713.962ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 16:59:58 GMT+0530 (India Standard Time)
+COMPLETED: 304 in  29.220ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 17:02:19 GMT+0530 (India Standard Time)
+COMPLETED: 200 in  36.692ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 17:03:05 GMT+0530 (India Standard Time)
+COMPLETED: 200 in  47.683ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 17:03:06 GMT+0530 (India Standard Time)
+COMPLETED: 304 in  30.900ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 17:03:06 GMT+0530 (India Standard Time)
+COMPLETED: 304 in  29.553ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 17:03:40 GMT+0530 (India Standard Time)
+COMPLETED: 304 in  22.122ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 17:03:41 GMT+0530 (India Standard Time)
+COMPLETED: 304 in  25.312ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 17:03:42 GMT+0530 (India Standard Time)
+COMPLETED: 304 in  23.712ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 17:05:34 GMT+0530 (India Standard Time)
+COMPLETED: 200 in  728.134ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 17:06:29 GMT+0530 (India Standard Time)
+COMPLETED: 200 in  37.739ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 17:06:30 GMT+0530 (India Standard Time)
+COMPLETED: 304 in  26.035ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 17:06:31 GMT+0530 (India Standard Time)
+COMPLETED: 304 in  33.990ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 17:06:31 GMT+0530 (India Standard Time)
+COMPLETED: 304 in  22.503ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 17:06:46 GMT+0530 (India Standard Time)
+COMPLETED: 304 in  17.394ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 17:06:47 GMT+0530 (India Standard Time)
+COMPLETED: 304 in  25.594ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 17:06:47 GMT+0530 (India Standard Time)
+COMPLETED: 304 in  19.712ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 17:06:47 GMT+0530 (India Standard Time)
+COMPLETED: 304 in  27.158ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 17:07:14 GMT+0530 (India Standard Time)
+COMPLETED: 200 in  20.475ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 17:07:45 GMT+0530 (India Standard Time)
+COMPLETED: 200 in  27.613ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 17:08:12 GMT+0530 (India Standard Time)
+COMPLETED: 200 in  26.822ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 17:08:13 GMT+0530 (India Standard Time)
+COMPLETED: 304 in  21.737ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 17:08:23 GMT+0530 (India Standard Time)
+COMPLETED: 304 in  25.575ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 17:08:23 GMT+0530 (India Standard Time)
+COMPLETED: 304 in  12.831ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 17:08:39 GMT+0530 (India Standard Time)
+COMPLETED: 200 in  30.809ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 17:08:40 GMT+0530 (India Standard Time)
+COMPLETED: 304 in  36.297ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 17:08:40 GMT+0530 (India Standard Time)
+COMPLETED: 304 in  21.822ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 17:08:40 GMT+0530 (India Standard Time)
+COMPLETED: 304 in  33.197ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 17:08:41 GMT+0530 (India Standard Time)
+COMPLETED: 304 in  34.824ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 17:08:41 GMT+0530 (India Standard Time)
+COMPLETED: 304 in  27.920ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 17:08:41 GMT+0530 (India Standard Time)
+COMPLETED: 304 in  24.386ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 17:08:41 GMT+0530 (India Standard Time)
+COMPLETED: 304 in  27.221ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 17:08:42 GMT+0530 (India Standard Time)
+COMPLETED: 304 in  25.444ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 17:08:50 GMT+0530 (India Standard Time)
+COMPLETED: 200 in  33.657ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 17:09:46 GMT+0530 (India Standard Time)
+COMPLETED: 200 in  16.476ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 17:09:47 GMT+0530 (India Standard Time)
+COMPLETED: 304 in  8.426ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 17:09:47 GMT+0530 (India Standard Time)
+COMPLETED: 304 in  12.897ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 17:09:54 GMT+0530 (India Standard Time)
+COMPLETED: 200 in  27.247ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 17:10:15 GMT+0530 (India Standard Time)
+COMPLETED: 200 in  21.717ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 17:18:56 GMT+0530 (India Standard Time)
+COMPLETED: 200 in  2029.658ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 17:19:44 GMT+0530 (India Standard Time)
+COMPLETED: 200 in  42.845ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 17:34:58 GMT+0530 (India Standard Time)
+COMPLETED: 500 in  796.243ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 17:36:35 GMT+0530 (India Standard Time)
+COMPLETED: 500 in  29.613ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 17:36:37 GMT+0530 (India Standard Time)
+COMPLETED: 500 in  24.760ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 17:36:38 GMT+0530 (India Standard Time)
+COMPLETED: 500 in  23.284ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 17:36:38 GMT+0530 (India Standard Time)
+COMPLETED: 500 in  21.214ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 17:36:38 GMT+0530 (India Standard Time)
+COMPLETED: 500 in  12.525ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 17:36:38 GMT+0530 (India Standard Time)
+COMPLETED: 500 in  11.274ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 17:36:55 GMT+0530 (India Standard Time)
+COMPLETED: 200 in  65.428ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 17:36:58 GMT+0530 (India Standard Time)
+COMPLETED: 304 in  21.117ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 17:38:03 GMT+0530 (India Standard Time)
+COMPLETED: 500 in  15.748ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 17:38:15 GMT+0530 (India Standard Time)
+COMPLETED: 200 in  35.988ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 17:39:03 GMT+0530 (India Standard Time)
+COMPLETED: 200 in  32.904ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 17:39:09 GMT+0530 (India Standard Time)
+COMPLETED: 304 in  29.868ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 17:39:48 GMT+0530 (India Standard Time)
+COMPLETED: 200 in  34.423ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 17:40:53 GMT+0530 (India Standard Time)
+COMPLETED: 200 in  37.863ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 17:41:19 GMT+0530 (India Standard Time)
+COMPLETED: 500 in  36.515ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 17:41:19 GMT+0530 (India Standard Time)
+COMPLETED: 500 in  38.900ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 17:41:28 GMT+0530 (India Standard Time)
+COMPLETED: 200 in  47.190ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 17:43:34 GMT+0530 (India Standard Time)
+COMPLETED: 500 in  18.499ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 17:44:25 GMT+0530 (India Standard Time)
+COMPLETED: 500 in  9.691ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 17:44:25 GMT+0530 (India Standard Time)
+COMPLETED: 500 in  14.282ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 17:45:19 GMT+0530 (India Standard Time)
+COMPLETED: 500 in  15.619ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 17:45:20 GMT+0530 (India Standard Time)
+COMPLETED: 500 in  17.611ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 17:45:20 GMT+0530 (India Standard Time)
+COMPLETED: 500 in  15.740ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 17:45:21 GMT+0530 (India Standard Time)
+COMPLETED: 500 in  7.746ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 17:45:45 GMT+0530 (India Standard Time)
+COMPLETED: 200 in  39.818ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 17:46:01 GMT+0530 (India Standard Time)
+COMPLETED: 304 in  25.927ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 17:46:02 GMT+0530 (India Standard Time)
+COMPLETED: 304 in  23.524ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 17:46:46 GMT+0530 (India Standard Time)
+COMPLETED: 200 in  43.831ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 17:49:08 GMT+0530 (India Standard Time)
+COMPLETED: 500 in  15.323ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 17:51:18 GMT+0530 (India Standard Time)
+COMPLETED: 200 in  36.676ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 18:00:34 GMT+0530 (India Standard Time)
+COMPLETED: 500 in  819.393ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 18:00:53 GMT+0530 (India Standard Time)
+COMPLETED: 500 in  16.870ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 18:01:11 GMT+0530 (India Standard Time)
+COMPLETED: 200 in  174.344ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 18:02:45 GMT+0530 (India Standard Time)
+COMPLETED: 500 in  51.635ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 18:03:47 GMT+0530 (India Standard Time)
+COMPLETED: 200 in  52.587ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 18:03:49 GMT+0530 (India Standard Time)
+COMPLETED: 304 in  57.893ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 18:03:59 GMT+0530 (India Standard Time)
+COMPLETED: 200 in  39.218ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 18:05:16 GMT+0530 (India Standard Time)
+COMPLETED: 200 in  31.707ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 18:09:16 GMT+0530 (India Standard Time)
+COMPLETED: 304 in  38.383ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 18:09:45 GMT+0530 (India Standard Time)
+COMPLETED: 500 in  29.436ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 18:10:04 GMT+0530 (India Standard Time)
+COMPLETED: 500 in  40.745ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 18:10:05 GMT+0530 (India Standard Time)
+COMPLETED: 500 in  18.208ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 18:10:06 GMT+0530 (India Standard Time)
+COMPLETED: 500 in  19.633ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 18:10:13 GMT+0530 (India Standard Time)
+COMPLETED: 200 in  70.067ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 18:14:31 GMT+0530 (India Standard Time)
+COMPLETED: 304 in  31.511ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 18:16:31 GMT+0530 (India Standard Time)
+COMPLETED: 200 in  62.947ms
+STARTED: GET /tables for ::1 at Fri Aug 31 2018 18:17:57 GMT+0530 (India Standard Time)
+COMPLETED: 200 in  44.247ms
+STARTED: POST /users for ::1 at Thu Sep 06 2018 23:34:20 GMT+0530 (India Standard Time)
+COMPLETED: 200 in  672.168ms
+STARTED: POST /users for ::1 at Tue Sep 11 2018 12:36:07 GMT+0530 (India Standard Time)
+COMPLETED: 200 in  67.559ms
+STARTED: POST /users for ::1 at Tue Sep 11 2018 12:37:25 GMT+0530 (India Standard Time)
+COMPLETED: 200 in  606.039ms
+STARTED: POST /url for ::1 at Tue Sep 11 2018 12:51:02 GMT+0530 (India Standard Time)
+COMPLETED: 400 in  33.217ms
+STARTED: POST /url for ::1 at Tue Sep 11 2018 12:51:13 GMT+0530 (India Standard Time)
+COMPLETED: 401 in  39.284ms
+STARTED: POST /url for ::1 at Tue Sep 11 2018 12:51:51 GMT+0530 (India Standard Time)
+COMPLETED: 200 in  321.526ms
+STARTED: POST /url for ::1 at Tue Sep 11 2018 12:53:38 GMT+0530 (India Standard Time)
+COMPLETED: 200 in  11.099ms
+STARTED: GET /urls for ::1 at Tue Sep 11 2018 13:01:45 GMT+0530 (India Standard Time)
+COMPLETED: 404 in  3.241ms
+STARTED: GET /urls for ::1 at Tue Sep 11 2018 13:02:01 GMT+0530 (India Standard Time)
+COMPLETED: 401 in  6.334ms
+STARTED: GET /urls for ::1 at Tue Sep 11 2018 13:02:13 GMT+0530 (India Standard Time)
+COMPLETED: 200 in  43.228ms
+STARTED: POST /users for ::1 at Tue Sep 11 2018 13:03:05 GMT+0530 (India Standard Time)
+COMPLETED: 200 in  266.282ms
+STARTED: GET /urls/5b976d0fcd132624c08561bf for ::1 at Tue Sep 11 2018 13:08:02 GMT+0530 (India Standard Time)
+COMPLETED: 401 in  5.989ms
+STARTED: GET /urls/5b976d0fcd132624c08561bf for ::1 at Tue Sep 11 2018 13:08:23 GMT+0530 (India Standard Time)
+COMPLETED: 200 in  35.531ms
+STARTED: GET /urls/5b976d0fcd132624c08561bf for ::1 at Tue Sep 11 2018 13:12:27 GMT+0530 (India Standard Time)
+COMPLETED: 200 in  5.690ms
+STARTED: DELETE /urls/5b976d0fcd132624c08561bf for ::1 at Tue Sep 11 2018 13:25:19 GMT+0530 (India Standard Time)
+COMPLETED: 401 in  8.996ms
+STARTED: DELETE /urls/5b976d0fcd132624c08561bf for ::1 at Tue Sep 11 2018 13:25:51 GMT+0530 (India Standard Time)
+COMPLETED: 200 in  160.910ms
+STARTED: DELETE /urls/5b976d0fcd132624c08561bf for ::1 at Tue Sep 11 2018 13:25:58 GMT+0530 (India Standard Time)
+COMPLETED: 200 in  7.016ms
+STARTED: GET /users/profile for ::1 at Tue Sep 11 2018 13:36:42 GMT+0530 (India Standard Time)
+COMPLETED: 401 in  1.093ms
+STARTED: GET /users/profile for ::1 at Tue Sep 11 2018 13:37:04 GMT+0530 (India Standard Time)
+COMPLETED: 200 in  7.385ms
+STARTED: GET /users/me for ::1 at Tue Sep 11 2018 13:37:23 GMT+0530 (India Standard Time)
+COMPLETED: 200 in  45.762ms
+STARTED: DELETE /users/logout for ::1 at Tue Sep 11 2018 13:55:26 GMT+0530 (India Standard Time)
+COMPLETED: 500 in  27.723ms
+STARTED: DELETE /users/logout for ::1 at Tue Sep 11 2018 13:56:33 GMT+0530 (India Standard Time)
+COMPLETED: 200 in  79.517ms
+STARTED: DELETE /users/logout for ::1 at Tue Sep 11 2018 13:57:02 GMT+0530 (India Standard Time)
+COMPLETED: 500 in  40.134ms
+STARTED: DELETE /users/logout for ::1 at Tue Sep 11 2018 13:57:45 GMT+0530 (India Standard Time)
+COMPLETED: 200 in  43.702ms
+STARTED: DELETE /users/logout for ::1 at Tue Sep 11 2018 13:57:50 GMT+0530 (India Standard Time)
+COMPLETED: 200 in  4.233ms
+STARTED: DELETE /users/logout for ::1 at Tue Sep 11 2018 13:59:26 GMT+0530 (India Standard Time)
+COMPLETED: 200 in  36.517ms
+STARTED: DELETE /users/logout for ::1 at Tue Sep 11 2018 14:02:29 GMT+0530 (India Standard Time)
+COMPLETED: 200 in  4.433ms
+STARTED: DELETE /users/logout for ::1 at Tue Sep 11 2018 14:03:18 GMT+0530 (India Standard Time)
+COMPLETED: 500 in  34.412ms
+STARTED: DELETE /users/logout for ::1 at Tue Sep 11 2018 14:04:10 GMT+0530 (India Standard Time)
+COMPLETED: 200 in  47.507ms
+STARTED: DELETE /users/logout for ::1 at Tue Sep 11 2018 14:05:01 GMT+0530 (India Standard Time)
+COMPLETED: 500 in  35.257ms
+STARTED: POST /users for ::1 at Sun Sep 16 2018 12:05:53 GMT+0530 (India Standard Time)
+COMPLETED: 200 in  846.782ms
+STARTED: GET /users for ::1 at Sun Sep 16 2018 12:08:11 GMT+0530 (India Standard Time)
+COMPLETED: 200 in  2.218ms
+STARTED: GET /url for ::1 at Sun Sep 16 2018 12:08:19 GMT+0530 (India Standard Time)
+COMPLETED: 200 in  29.190ms
+STARTED: POST /users for ::1 at Sun Sep 16 2018 12:09:01 GMT+0530 (India Standard Time)
+COMPLETED: 200 in  159.307ms
+STARTED: POST /users for ::1 at Sun Sep 16 2018 12:09:16 GMT+0530 (India Standard Time)
+COMPLETED: 200 in  281.470ms

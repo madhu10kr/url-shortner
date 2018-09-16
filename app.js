@@ -8,6 +8,10 @@ const Url = require('./models/url');
 var file = require('fs-extra');
 var path = require('path');
 
+const {authencicateUser} = require('./middlewares/authentication'); 
+
+const {usersRouter} = require('./routes/user');
+
 const app = express();
 
 var useragent = require('express-useragent');
@@ -24,10 +28,29 @@ COMPLETED: ${tokens.status(req, res)} in  ${tokens['response-time'](req, res)}ms
 
 app.use(bodyParser.json());
 app.use(useragent.express());
+
+app.use('/users',usersRouter)
+
+
+//custom middle ware using tokens in morgan
 app.use(morgan((tokens, req, res) => {
     return `STARTED: ${tokens.method(req, res)} ${tokens.url(req, res)} for ${req.ip} at ${new Date()}
 COMPLETED: ${tokens.status(req, res)} in  ${tokens['response-time'](req, res)}ms`;
-  }))
+  }));
+
+
+
+
+
+  app.set('view engine', 'pug');
+  //template engine pug
+app.get('/tables', function (req, res) {
+    Url.find().then(urls => {
+        res.render('index', {users: urls})
+    }).catch(err => res.send(err));
+    
+  });
+
 
 app.get('/url',(req,res) => {
     Url.find().then(url => res.send(url)).catch(err => res.send(err));
@@ -57,6 +80,22 @@ app.get('/urls/tags',(req,res) => {
     }).catch(err => res.send(err));
 });
 
+
+//All the urls belonging to the user
+app.get('/urls',authencicateUser,(req,res)=> {
+    Url.find({user: req.locals.user._id}).then(urls => {
+        res.send(urls);
+    }).catch(err => res.send(err));
+});
+
+//url belonging to the url:id and authenticated user
+app.get('/urls/:id',authencicateUser,(req,res)=> {
+    Url.find({user: req.locals.user._id,_id:req.params.id}).then(url => {
+        res.send(url);
+    }).catch(err => res.send(err));
+});
+
+
 //multiple query tags
 app.get('/url/tags/:name',(req,res) => {
     Url.find({tags: req.params.name}).then(url => {
@@ -66,9 +105,10 @@ app.get('/url/tags/:name',(req,res) => {
 });
 
 //posting new url
-app.post('/url',(req,res) => {
+app.post('/url',authencicateUser,(req,res) => {
     let body =  _.pick(req.body,['title','original_url','tags','clicks']);
     let url1 = new Url(body);
+    url1.user = req.locals.user._id;
     url1.save().then(url => res.send(url)).catch(err => res.send(err));
 });
 
@@ -78,10 +118,11 @@ app.put('/url/:id',(req,res) => {
     .then(url => res.send(url)).catch(err => res.send(err));
 });
 
-//deleting url id
-app.delete('/url/:id',(req,res) => {
-    Url.findByIdAndRemove(req.params.id)
-    .then(url => res.send(url)).catch(err => res.send(err));
+//deleting url id with authenticated user
+app.delete('/urls/:id',authencicateUser,(req,res) => {
+    Url.findByIdAndRemove({user: req.locals.user._id,_id:req.params.id})
+    .then(url => res.send(url)
+    ).catch(err => res.send(err));
 });
 
 app.use(function(req, res, next) {
