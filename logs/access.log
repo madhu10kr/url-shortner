@@ -319,3 +319,11 @@ STARTED: POST /users for ::1 at Sun Sep 16 2018 12:09:01 GMT+0530 (India Standar
 COMPLETED: 200 in  159.307ms
 STARTED: POST /users for ::1 at Sun Sep 16 2018 12:09:16 GMT+0530 (India Standard Time)
 COMPLETED: 200 in  281.470ms
+STARTED: POST /users for ::1 at Sun Sep 16 2018 16:07:11 GMT+0530 (India Standard Time)
+COMPLETED: 200 in  759.884ms
+STARTED: GET /users for ::1 at Sun Sep 16 2018 16:07:33 GMT+0530 (India Standard Time)
+COMPLETED: 200 in  1.453ms
+STARTED: POST /users for ::1 at Sun Sep 16 2018 16:25:31 GMT+0530 (India Standard Time)
+COMPLETED: 200 in  640.604ms
+STARTED: POST /users for ::1 at Sun Sep 16 2018 16:25:49 GMT+0530 (India Standard Time)
+COMPLETED: 200 in  311.718ms

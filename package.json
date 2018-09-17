@@ -1,0 +1,38 @@
+{
+  "name": "url-shortner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "express-useragent": "^1.0.12",
+    "fs-extra": "^7.0.0",
+    "bcrypt": "^3.0.0",
+    "jsonwebtoken": "^8.3.0",
+    "lodash": "^4.17.10",
+    "mongoose": "^5.2.9",
+    "morgan": "^1.9.0",
+    "file-system": "^2.2.2",
+    "path": "^0.12.7",
+    "pug": "^2.0.3",
+    "shorthash": "^0.0.2",
+    "validator": "^10.7.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madhu10kr/url-shortner.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/madhu10kr/url-shortner/issues"
+  },
+  "homepage": "https://github.com/madhu10kr/url-shortner#readme"
+}
