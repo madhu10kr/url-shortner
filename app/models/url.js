@@ -1,6 +1,5 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
-const bodyParser = require('body-parser');
 var sh = require("shorthash");
 
 var validator = require('validator');

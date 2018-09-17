@@ -1,14 +1,13 @@
 const express = require('express');
-
-const {User} = require('../models/user');
-
 const router = express.Router();
 const _ = require('lodash');
 
+
+const {User} = require('../models/user');
 const {authencicateUser} = require('../middlewares/authentication');
 
 router.get('/',(req,res) => {
-    res.send('hi')
+    User.find().then(data => res.send(data)).catch(err => res.send(err))
 });
 
 //authenticate middleware
@@ -55,5 +54,5 @@ router.delete('/logout',authencicateUser,(req,res) => {
 
 
 module.exports = {
-    usersRouter:router
+    usersController:router
 }
